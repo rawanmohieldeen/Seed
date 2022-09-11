@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_seed_website_pages_seed_website_pages,seed_website_pages.seed_website_pages,model_seed_website_pages_seed_website_pages,base.group_user,1,1,1,1

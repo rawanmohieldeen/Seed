@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	  <template id="packages_page" name="Packages">
+
+		<t t-call="website.layout">
+		        <t t-set="pageName" t-value="'packages_page'"/>
+	               <div id="wrap" class="oe_structure oe_empty">
+					 <section class="s_color_blocks_2" data-snippet="s_color_blocks_2" data-name="Big Boxes">
+					        <div class="container-fluid">
+					          <div class="row">
+					          	<div class="col-lg-6 text-center o_colored_level o_cc o_cc5 pt200 pb256" style="background-color: rgb(216, 213, 207) !important; background-image: none;" data-original-title="" title="" aria-describedby="tooltip778047">
+					              <h2>
+					                <font style="" class="text-black">YOUR ONE STOP</font>
+					              </h2>
+					              <h2>
+					                <font style="" class="text-black">SHOP TO WELLBEING</font>
+					              </h2>
+					              <h2 data-original-title="" title="" aria-describedby="tooltip132152">
+					                <a href="#" class="mb-2 btn btn-primary" data-original-title="" title="" aria-describedby="popover301195">
+					                  <font class="text-black" data-original-title="" title="" aria-describedby="tooltip260552">BOOK AN APPOINTMENT</font>
+					                </a>
+					                <br/>
+					              </h2>
+					            </div>
+
+					            <div class="col-lg-6 o_cc o_cc3 text-center o_colored_level oe_img_bg o_bg_img_center" style="background-image: url(/seed_website_pages/static/src/img/Packages_Page.jpg);" data-original-title="" title="" aria-describedby="tooltip299373">
+					              <br/>
+					            </div>
+					            
+					          </div>
+					        </div>
+					      </section>
+					      <section class="s_text_block pt40 pb40 o_colored_level o_cc o_cc1" data-snippet="s_text_block" data-name="Text" style="background-color: rgb(193, 184, 169) !important; background-image: none;">
+					        <div class="s_allow_columns container">
+					          <h3 style="text-align: center;">
+					            <span style="font-weight: bolder;">
+					              <font class="text-black" style="font-weight: bolder;">Seed Health and Wellness Center was established with an extraordinary intention: To transform the way that medicine is practiced in Qatar.</font>
+					            </span>
+					            <br/>
+					          </h3>
+					        </div>
+					      </section>
+		            </div>
+		        </t>
+</template>
+</odoo>
