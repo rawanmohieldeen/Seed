@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<template id="customer_qr_template">
+			<t t-call="web.html_container">
+				<t t-foreach="docs" t-as="r">
+					<t t-call="nm_health_wellness_reception_sales.external_layout">
+						<div class="page">
+						<img style="display:block;margin:10% auto 0 auto;"
+							 t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s'%('QR', r.get_qr_vals(), 130, 130)"/>
+						<p style="margin-top:25px">
+							<b>CUSTOMER NUMBER: </b> <b><span t-field="r.customer_no"/></b>
+						</p>
+						<p>
+							<b>NAME: </b> <b><span t-field="r.name"/></b>
+						</p>
+						<p>
+							<b>GENDER: </b> <b><span t-field="r.gender"/></b>
+						</p>
+						<p>
+							<b>DATE OF BIRTH: </b> <b><span t-field="r.date_of_birth"/></b>
+						</p>
+					</div>
+					</t>
+				</t>
+			</t>
+		</template>
+	</data>
+</odoo>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+        <record id="customer_qr_paper_format" model="report.paperformat">
+			<field name="name">Customer QR</field>
+			<field name="format">custom</field>
+			<field name="page_height">70</field>
+			<field name="page_width">90</field>
+			<field name="header_line">True</field>
+			<field eval="0" name="margin_top" />
+			<field eval="0" name="margin_bottom" />
+			<field eval="2" name="margin_right" />
+			<field eval="2" name="margin_left" />
+			<field name="header_line" eval="False" />
+			<field name="header_spacing">0</field>
+			<field name="dpi">90</field>
+		</record>
+
+		<record id="customer_qr_report_report" model="ir.actions.report">
+            <field name="name">Customer QR</field>
+            <field name="model">reception.customer</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">nm_health_wellness_reception_sales.customer_qr_template</field>
+            <field name="report_file">nm_health_wellness_reception_sales.customer_qr_template</field>
+            <field name="print_report_name">'customer_qr'</field>
+            <field name="binding_model_id" ref="model_reception_customer"/>
+            <field name="binding_type">report</field>
+            <field name="paperformat_id" ref="customer_qr_paper_format"/>
+        </record>
+	</data>
+</odoo>
