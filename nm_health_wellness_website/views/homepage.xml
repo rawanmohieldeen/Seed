@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF8"?>
+<odoo>
+     <template id="homepage_seed" inherit_id="website.homepage" name="Products" active="True">
+
+      <!--   <record id="homepage_seed" model="ir.ui.view">
+        <field name="name">Home</field>
+        <field name="type">qweb</field>
+        <field name="key">website.homepage</field>
+        <field name="inherit_id" ref="website.homepage"/>
+        <field name="arch" type="xml">
+ -->
+        <t t-call="website.layout" position = "replace">
+
+
+                  <t t-call="website.layout">
+                    <t t-set="pageName" t-value="'homepage'"/>
+                    <div id="wrap" class="oe_structure oe_empty">
+                      <section class="s_cover bg-black-50 o_colored_level s_parallax_no_overflow_hidden pb152 pt152 oe_img_bg o_bg_img_center" data-scroll-background-ratio="0" data-snippet="s_cover" data-name="Cover" style="background-image: url(/nm_health_wellness_website/static/src/img/Homepage.jpg)">
+                        <div class="container s_allow_columns">
+                          <h1 style="text-align: center;">
+                            <font style="font-size: 48px; font-weight: bold;">HEALTHCARE</font>
+                          </h1>
+                          <h1 style="text-align: center;">
+                            <span style="font-weight: bolder; font-size: 48px;">REIMAGINED</span>
+                          </h1>
+                          <p style="text-align: center;" data-original-title="" title="" aria-describedby="tooltip994014">
+                            <a class="mb-2 btn btn-primary" href="/calendar" data-original-title="" title="">BOOK AN APPOINTMENT</a>
+                            <br/>
+                          </p>
+                        </div>
+                      </section>
+                      <section class="s_title pt40 pb40 o_colored_level" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-color: rgb(84, 93, 74) !important;">
+                        <div class="s_allow_columns container">
+                          <h1 style="text-align: center;">
+                            <font style="font-size: 62px;" class="text-o-color-3">Qater's First Integrative</font>
+                          </h1>
+                          <p style="text-align: center;">
+                            <font style="font-size: 62px;" class="text-o-color-3">Functional Medicine Practice</font>
+                            <font style="font-size: 62px;">
+                              <br/>
+                            </font>
+                          </p>
+                        </div>
+                      </section>
+                      <section class="s_references pt48 pb32 o_colored_level" data-snippet="s_references" data-name="References" style="background-image: none;">
+                        <div class="container">
+                          <h2 style="text-align: center;">Our Offerings</h2>
+                          <div class="row">
+                            <div class="col-lg-2 pt16 pb16 o_colored_level" style="">
+                              <img src="/nm_health_wellness_website/static/src/img/1.png" class="img img-fluid mx-auto" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip550500" data-original-id="552" data-original-src="/nm_health_wellness_website/static/src/img/1.png" data-mimetype="image/png" data-resize-width="128" style="width: 61% !important;"/>
+                              <p style="text-align:right">HOCATT</p>
+                            </div>
+                            <div class="col-lg-2 pt16 pb16 o_colored_level">
+                              <img src="/nm_health_wellness_website/static/src/img/2.png" class="img img-fluid mx-auto" alt="" loading="lazy" data-original-id="551" data-original-src="/nm_health_wellness_website/static/src/img/2.png" data-mimetype="image/png" data-resize-width="128" data-original-title="" title="" aria-describedby="tooltip875264" style="width: 31% !important;"/>
+                              <p style="text-align:center">BODY WORK</p>
+                            </div>
+                            <div class="col-lg-2 pt16 pb16 o_colored_level">
+                              <img src="/nm_health_wellness_website/static/src/img/3.png" class="img img-fluid mx-auto" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip32393" data-original-id="550" data-original-src="/nm_health_wellness_website/static/src/img/3.png" data-mimetype="image/png" data-resize-width="690"  style="width: 100% !important;"/>
+                              <p style="text-align:center">IV THERAPY</p>
+                            </div>
+                            <div class="col-lg-2 pt16 pb16 o_colored_level">
+                              <img src="/nm_health_wellness_website/static/src/img/4.png" class="img img-fluid mx-auto" alt="" loading="lazy" data-original-id="549" data-original-src="/nm_health_wellness_website/static/src/img/4.png" data-mimetype="image/png" data-resize-width="616" data-original-title="" title="" aria-describedby="tooltip700531" style="width: 81% !important;"/>
+                              <p style="text-align:center">NUTRITION</p>
+                            </div>
+                            <div class="col-lg-2 pt16 o_colored_level pb0">
+                              <img src="/nm_health_wellness_website/static/src/img/5.png" class="img img-fluid mx-auto" alt="" loading="lazy" data-original-id="548" data-original-src="/nm_health_wellness_website/static/src/img/5.png" data-mimetype="image/png" data-resize-width="690" data-original-title="" title="" aria-describedby="tooltip309816" style=""/>
+                              <p style="text-align:center">COLON HYDROTHERAPY</p>
+                            </div>
+                            <div class="col-lg-2 pt16 o_colored_level pb0">
+                              <img src="/nm_health_wellness_website/static/src/img/6.png" class="img img-fluid mx-auto" alt="" loading="lazy" data-original-id="547" data-original-src="/nm_health_wellness_website/static/src/img/6.png" data-mimetype="image/png" data-resize-width="242" data-original-title="" title="" aria-describedby="tooltip619076" style="width: 31% !important;"/>
+                              <p style="text-align:center">RED LIGHT</p>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section class="s_color_blocks_2" data-snippet="s_color_blocks_2" data-name="Big Boxes">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-lg-6 text-center o_colored_level o_cc o_cc3 border" style="background-color: rgb(240, 239, 229) !important; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;" data-original-title="" title="" aria-describedby="tooltip322305">
+                              <h2 class="o_default_snippet_text">
+                                <font style="color: rgb(84, 93, 74);text-align:left;">We believe in functional medicine</font>
+                              </h2>
+                              <p class="o_default_snippet_text">
+                                <font style="color: rgb(84, 93, 74);">Functional Medicine uses an approach </font>
+                               
+                                <font style="color: rgb(84, 93, 74);">that focuses on identifying and addressing the root cause of disease.</font>
+                              </p>
+                              <a href="/calendar" class="mb-2 btn btn-primary" data-original-title="" title="">
+                                <font style="color:black;" class="bg-false" data-original-title="" title="" aria-describedby="tooltip531905">BOOK AN APPOINTMENT</font>
+                              </a>
+                            </div>
+                            <div class="col-lg-6 text-center o_colored_level o_cc o_cc5 border" style="background-color: rgb(248, 247, 227) !important; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;" data-original-title="" title="" aria-describedby="tooltip249667">
+                            
+                              <font style="color: rgb(84, 93, 74); font-weight: bolder;" data-original-title="" title="" aria-describedby="tooltip466422">How Can we help you </font>
+                              <br/>
+                              <ul class="list-style">
+                                <li>
+                                  <font style="color: rgb(84, 93, 74);">
+                                       Autoimmune Conditions
+                                  </font>
+                                </li>
+                                <li>
+                                  <font style="color: rgb(84, 93, 74);">
+                                       Inflammations
+                                  </font>
+                                </li>
+                                <li>
+                                  <font style="color: rgb(84, 93, 74);">
+                                       Fertility and Pregnancy
+                                  </font>
+                              </li>
+                              <li>
+                                  <font style="color: rgb(84, 93, 74);">
+                                       Post-Partum
+
+                                  </font>
+                              </li>
+                              <li>
+                                  <font style="color: rgb(84, 93, 74);">
+                                       Hormonal Balance
+                                  </font>
+                              </li>
+                              <li>
+                                  <font style="color: rgb(84, 93, 74);">
+                                       Gut Health
+                                  </font>
+                              </li>
+                              <li>
+                                  <font style="color: rgb(84, 93, 74);">
+                                       Cardiometabolic
+                                  </font>
+                              </li>
+                              <li>
+                                   <font style="color: rgb(84, 93, 74);">
+                                       Sports and Tissue Injuries
+                                  </font>
+                              </li>
+                              <li>
+                                  <font style="color: rgb(84, 93, 74);">
+                                       Environmental Toxicities
+                                  </font>
+                              </li>
+                              <li>
+                                   <font style="color: rgb(84, 93, 74);">
+                                       Brain Health
+                                  </font>
+                              </li>
+                              <li>
+                                  <font style="color: rgb(84, 93, 74);">
+                                       Neurodegenerative Disease
+                                  </font>
+                              </li>
+                              <li>
+                                   <font style="color: rgb(84, 93, 74);">
+                                       Mental Health
+                                  </font>
+                              </li>
+                              <li>
+                                  <font style="color: rgb(84, 93, 74);">
+                                       Pediatrics
+                                  </font>
+                              </li>
+                              <li>
+                                  <font style="color: rgb(84, 93, 74);">
+                                       Long Haulers
+                                  </font>
+                              </li>
+                          </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section class="s_image_gallery o_spc-small pt24 pb24 o_colored_level o_masonry" data-vcss="001" data-columns="2" style="overflow: hidden; background-image: none;" data-snippet="s_images_wall" data-name="Images Wall">
+                        <div class="container">
+                            <h3>Our Clinic</h3>
+                          <div class="row s_nb_column_fixed">
+                            <div class="o_masonry_col o_snippet_not_selectable col-lg-6">
+                              <img class="img img-fluid d-block" src="/web/image/website.library_image_03" data-index="0" data-name="Image" loading="lazy" data-original-id="413" data-original-src="/website/static/src/img/library/clock.jpg" data-mimetype="image/jpeg" data-original-title="" title="" aria-describedby="tooltip866320"/>
+                              <img class="img img-fluid d-block" src="/web/image/website.library_image_10" data-index="3" data-name="Image" loading="lazy" data-original-id="420" data-original-src="/website/static/src/img/library/ice_coffe.jpg" data-mimetype="image/jpeg"/>
+                            </div>
+                            <div class="o_masonry_col o_snippet_not_selectable col-lg-6">
+                              <img class="img img-fluid d-block" src="/web/image/560-0d576eb0/Shop%20Page.jpg" data-index="2" data-name="Image" loading="lazy" data-original-title="" title="" aria-describedby="tooltip881383" alt="" data-original-id="559" data-original-src="/web/image/559-7f878112/Shop%20Page.jpg" data-mimetype="image/jpeg" data-resize-width="690"/>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section class="s_image_gallery o_spc-small pt24 pb24 o_colored_level o_masonry" data-vcss="001" data-columns="1" style="overflow: hidden; background-image: none;" data-snippet="s_images_wall" data-name="Images Wall">
+                        <div class="container">
+                          <div class="row s_nb_column_fixed">
+                            <div class="o_masonry_col o_snippet_not_selectable col-lg-12">
+                              <img class="img img-fluid d-block" src="/web/image/website.library_image_05" data-index="4" data-name="Image" loading="lazy" data-original-id="415" data-original-src="/website/static/src/img/library/compass.jpg" data-mimetype="image/jpeg" data-original-title="" title="" aria-describedby="tooltip788920"/>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+       </t>
+     </t>
+   </template>
+</odoo>

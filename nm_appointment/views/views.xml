@@ -1,0 +1,16 @@
+<odoo>
+  <data>
+   
+   <record id="calendar_appointment_type_view_form_inherit" model="ir.ui.view">
+            <field name="name">calendar.appointment.type.form</field>
+            <field name="model">calendar.appointment.type</field>
+            <field name="inherit_id" ref="appointment.calendar_appointment_type_view_form"/>
+            <field name="arch" type="xml">
+                <field name="appointment_tz" position="before">
+                    <field name="product_id" string="Service"/>
+                </field>
+            </field>
+    </record>
+
+  </data>
+</odoo>

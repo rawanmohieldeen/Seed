@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_product.product,product.product_portal,product.model_product_product,base.group_portal,1,1,1,0
+access_product.template,template.product_portal,product.model_product_template,base.group_portal,1,1,1,0
+
+access_reception_order,reception_order,nm_health_wellness_reception_sales.model_reception_order,base.group_portal,1,1,1,0
+
+access_reception_order_line,reception_order_line,nm_health_wellness_reception_sales.model_reception_order_line,base.group_portal,1,1,1,0

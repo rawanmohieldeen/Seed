@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+   <template id="template_header_default_seed" inherit_id="website.template_header_default" name="Template Header Default" active="True">
+    <t t-call="website.navbar" position="replace">
+        <t t-call="website.navbar">
+            <t t-set="_navbar_classes" t-valuef="shadow-sm"/>
+            <div id="top_menu_container" class="container justify-content-start justify-content-lg-between">
+                <!-- Brand -->
+                <t t-call="website.placeholder_header_brand">
+                    <t t-set="_link_class" t-valuef="mr-4"/>
+                </t>
+                <!-- Navbar Collapse -->
+                <div id="top_menu_collapse" class="collapse navbar-collapse order-last order-lg-0">
+                    <t t-call="website.navbar_nav">
+                        <t t-set="_nav_class" t-valuef="flex-grow-1"/>
+                        <!-- Menu -->
+                        <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                            <t t-call="website.submenu">
+                                <t t-set="item_class" t-valuef="nav-item"/>
+                                <t t-set="link_class" t-valuef="nav-link"/>
+                            </t>
+                        </t>
+                        <!-- Sign In -->
+                        <t t-call="portal.placeholder_user_sign_in">
+                            <t t-set="_item_class" t-valuef="nav-item ml-lg-auto"/>
+                            <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                        </t>
+                        <!-- User Dropdown -->
+                        <t t-call="portal.user_dropdown">
+                            <t t-set="_user_name" t-value="true"/>
+                            <t t-set="_item_class" t-valuef="nav-item dropdown ml-lg-auto"/>
+                            <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                        </t>
+                    </t>
+
+                    <!-- Language Selector -->
+                    <t t-call="website.placeholder_header_language_selector">
+                        <t t-set="_div_classes" t-valuef="my-auto ml-lg-2"/>
+                    </t>
+                </div>
+                <!-- Call To Action -->
+                <t t-call="website.placeholder_header_call_to_action">
+                    <t t-set="_div_classes" t-valuef="ml-lg-4"/>
+                </t>
+                <!-- Navbar Toggler -->
+                <t t-call="website.navbar_toggler">
+                    <t t-set="_toggler_class" t-valuef="ml-auto"/>
+                </t>
+            </div>
+        </t>
+   </t>
+</template>
+
+<template id="header_call_to_action_inherit" inherit_id="website.header_call_to_action" name="Header Call to Action" active="True">
+    <div t-attf-class="oe_structure oe_structure_solo #{_div_classes}" position="replace">
+        <div t-attf-class="oe_structure oe_structure_solo #{_div_classes}">
+            <section class="s_text_block" data-snippet="s_text_block" data-name="Text">
+                <div class="container">
+                    <a href="/calendar" class="btn btn-primary btn_cta">BOOK AN APPOINTMENT</a>
+                </div>
+            </section>
+        </div>
+    </div>
+</template>
+</odoo>

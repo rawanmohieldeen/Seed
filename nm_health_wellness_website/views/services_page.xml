@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="services_page" name="Services">
+      <t t-call="website.layout">
+                <t t-set="pageName" t-value="'services_page'"/>
+
+        <div id="wrap" class="oe_structure oe_empty oe_website_sale">
+
+
+
+      <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt96 pb96 o_colored_level" data-scroll-background-ratio="1" data-snippet="s_cover" data-name="Cover" style="background-image: none;">
+        <span class="s_parallax_bg oe_img_bg" style="background-image: url('/nm_health_wellness_website/static/src/img/Services_Page.jpg'); background-position: 50% 0;"/>
+        <div class="o_we_bg_filter bg-black-50"/>
+        <div class="container s_allow_columns">
+          <h1 style="text-align: center;">
+            <font style="font-size: 62px; font-weight: bold;">A STEP TOWARDS THE BETTERMENT OF YOUR WELL BEING</font>
+          </h1>
+          <p style="text-align: center;">
+            <a class="mb-2 btn btn-primary" href="/calendar" data-original-title="" title="">
+              <font class="text-black">BOOK AN APPOINTMENT</font>
+            </a>
+            <br/>
+          </p>
+        </div>
+      </section>
+      <section class="s_three_columns o_cc o_cc2 pt32 pb32 o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-image: none;">
+        <div class="container">
+          <div class="row d-flex align-items-stretch">
+            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+              <div class="card h-100 border rounded" style="border-width: 0px !important; border-radius: 0px !important; background-color: rgb(193, 184, 169) !important;">
+                <img class="card-img-top" src="/nm_health_wellness_website/static/src/img/color.png" alt="" loading="lazy" data-original-id="459" data-original-src="/nm_health_wellness_website/static/src/img/color.png" data-mimetype="image/png"/>
+                <div class="card-body">
+                  <h3 class="card-title" style="text-align: center;">
+                    <span style="font-weight: bolder;">Colon Hydrotherapy</span>
+                    <br/>
+                  </h3>
+                  <p class="card-text">The Angel of Water® Colon Irrigation<br/>System is a very simple, safe,<br/>comfortable, and hygienic way to<br/>irrigate the colon for endoscopic,<br/>radiological, or other medical<br/>purposes.</p>
+                  <p class="card-text">
+                    <u>
+                      <font style="" class="text-o-color-1">Book Now</font>
+                    </u>
+                    <br/>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+              <div class="card h-100 border rounded" style="border-width: 0px !important; border-radius: 0px !important; background-color: rgb(193, 184, 169) !important;">
+                <img class="card-img-top" src="/nm_health_wellness_website/static/src/img/color.png" alt="" loading="lazy" data-original-id="460" data-original-src="/nm_health_wellness_website/static/src/img/color.png" data-mimetype="image/png"/>
+                <div class="card-body">
+                  <h3 class="card-title" style="text-align: center;">
+                    <span style="font-weight: bolder;">Prism Light Pod</span>
+                    <br/>
+                  </h3>
+                  <p class="card-text">Not only do we have the first red light<br/>bed in Qatar, but our Red-Light Pod is<br/>the most powerful automated<br/>award-winning red-light bed in the<br/>world, offering powerful photo<br/>biomodulation with six patient<br/>use-cases that are pre-programmed<br/>and automated for:<br/>+ Speeds Performance Recovery<br/>+ Reducing Chronic Pain<br/>+ Faster Injury &amp;amp; Wound Healing<br/>+ Soothing Arthritis &amp;amp; Joint Pain<br/>+ Promoting Anti-Aging &amp;amp; Skin<br/>Toning<br/>+ Weight-Loss Management</p>
+                  <p class="card-text">
+                    <u>
+                      <font style="" class="text-o-color-1">Book Now</font>
+                    </u>
+                    <br/>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+              <div class="card h-100 border rounded" style="border-width: 0px !important; border-radius: 0px !important; background-color: rgb(193, 184, 169) !important;">
+                <img class="card-img-top" src="/nm_health_wellness_website/static/src/img/color.png" alt="" loading="lazy" data-original-id="461" data-original-src="/nm_health_wellness_website/static/src/img/color.png" data-mimetype="image/png" data-original-title="" title="" aria-describedby="tooltip646780" style=""/>
+                <div class="card-body">
+                  <h3 class="card-title" style="text-align: center;">
+                    <span style="font-weight: bolder;">HOCATT</span>
+                    <br/>
+                  </h3>
+                  <p class="card-text">Transdermal Ozone Therapy is a wet<br/>sauna treatment where the client<br/>relaxes in our ozone sauna, called the HOCATT, which stands for<br/>Hyperthermic Ozone Carbonic Acid<br/>Transdermal Technology. During the<br/>treatment, the body receives many<br/>benefits from the ozone which detoxes at the cellular level and stimulates the immune system. Benefits include improved detoxification, increased circulation and increased overall energy.<br/><u><font style="background-color: inherit;" class="text-o-color-1 ">Book Now</font></u><br/></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_three_columns o_cc o_cc2 pt32 pb32 o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-image: none;">
+        <div class="container">
+          <div class="row d-flex align-items-stretch">
+            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+              <div class="card h-100 border rounded" style="border-width: 0px !important; border-radius: 0px !important; background-color: rgb(193, 184, 169) !important;">
+                <img class="card-img-top" src="/nm_health_wellness_website/static/src/img/color.png" alt="" loading="lazy" data-original-id="459" data-original-src="/nm_health_wellness_website/static/src/img/color.png" data-mimetype="image/png"/>
+                <div class="card-body">
+                  <h3 class="card-title" style="text-align: center;">
+                    <span style="font-weight: bolder;">Osteopathic<br/>Manipulation</span>
+                    <br/>
+                  </h3>
+                  <p class="card-text">A hands-on system used to diagnose<br/>illness and injury and treat the whole<br/>person. Osteopathic Manipulation<br/>strengthens the musculoskeletal<br/>framework and addresses the<br/>circulatory, organ, lymphatic and<br/>nervous systems to treat the root<br/>causes of a disorder or symptom.<br/>Osteopathic treatments go beyond<br/>spinal alignment, utilizing gentle<br/>techniques designed to address<br/>abnormal physiology and remove<br/>restrictions that prevent optimal<br/>health. Practitioners use touch and<br/>manipulation of musculoskeletal<br/>system to restore or improve mobility<br/>and balance, thereby enhancing<br/>wellbeing.<br/></p>
+                  <p class="card-text">
+                    <u>
+                      <font style="" class="text-o-color-1">Book Now</font>
+                    </u>
+                    <br/>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+              <div class="card h-100 border rounded" style="border-width: 0px !important; border-radius: 0px !important; background-color: rgb(193, 184, 169) !important;">
+                <img class="card-img-top" src="/nm_health_wellness_website/static/src/img/color.png" alt="" loading="lazy" data-original-id="460" data-original-src="/nm_health_wellness_website/static/src/img/color.png" data-mimetype="image/png"/>
+                <div class="card-body">
+                  <h3 class="card-title" style="text-align: center;">
+                    <span style="font-weight: bolder;">Acupuncture</span>
+                    <br/>
+                  </h3>
+                  <p class="card-text">An ancient system of complementary medicine in which fine needles are inserted in the skin at specific points energy lines (meridians), used in the treatment of various physical and mental conditions. Our licensed acupuncturists are trained in both pain management, symptom alleviation, and anti-aging aesthetic treatments.<br/></p>
+                  <p class="card-text">
+                    <u>
+                      <font style="" class="text-o-color-1">Book Now</font>
+                    </u>
+                    <br/>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+              <div class="card h-100 border rounded" style="border-width: 0px !important; border-radius: 0px !important; background-color: rgb(193, 184, 169) !important;">
+                <img class="card-img-top" src="/nm_health_wellness_website/static/src/img/color.png" alt="" loading="lazy" data-original-id="461" data-original-src="/nm_health_wellness_website/static/src/img/color.png" data-mimetype="image/png" data-original-title="" title="" aria-describedby="tooltip646780" style=""/>
+                <div class="card-body">
+                  <h3 class="card-title" style="text-align: center;">
+                    <span style="font-weight: bolder;">IV Nutrition</span>
+                    <br/>
+                  </h3>
+                  <p class="card-text">At Seed Health and Wellness Center<br/>we will devise a tailor made IV<br/>nutrition plan to add any nutrients<br/>that your body needs based on a<br/>medical assessment, toxic burden and nutritional deficiencies. Most patients feel positive effects such as an increase in energy almost immediately after the commencing of IV treatment.</p>
+                  <p class="card-text">
+                    <br/>
+                    <u>
+                      <font style="background-color: inherit;" class="text-o-color-1 ">Book Now</font>
+                    </u>
+                    <br/>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_three_columns o_cc o_cc2 pt32 pb32 o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-image: none;">
+        <div class="container">
+          <div class="row d-flex align-items-stretch">
+            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+              <div class="card h-100 border rounded" style="border-width: 0px !important; border-radius: 0px !important; background-color: rgb(193, 184, 169) !important;">
+                <img class="card-img-top" src="/nm_health_wellness_website/static/src/img/color.png" alt="" loading="lazy" data-original-id="459" data-original-src="/nm_health_wellness_website/static/src/img/color.png" data-mimetype="image/png"/>
+                <div class="card-body">
+                  <h3 class="card-title" style="text-align: center;">
+                    <span style="font-weight: bolder;">Osteopathic<br/>Manipulation</span>
+                    <br/>
+                  </h3>
+                  <p class="card-text">A very gentle massage that helps to<br/>promote relaxation, support detoxification pathways and enhance<br/>immune function through reducing<br/>edema (buildup of fluid) in the body.<br/>It has a calming effect to the nervous<br/>system due to the repetitive rhythmic<br/>sequence. MLD also has an analgesic effect so it's great for aiding in pain reduction.<br/></p>
+                  <p class="card-text">
+                    <u>
+                      <font style="" class="text-o-color-1">Book Now</font>
+                    </u>
+                    <br/>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+              <div class="card h-100 border rounded" style="border-width: 0px !important; border-radius: 0px !important; background-color: rgb(193, 184, 169) !important;">
+                <img class="card-img-top" src="/nm_health_wellness_website/static/src/img/color.png" alt="" loading="lazy" data-original-id="460" data-original-src="/nm_health_wellness_website/static/src/img/color.png" data-mimetype="image/png"/>
+                <div class="card-body">
+                  <h3 class="card-title" style="text-align: center;">
+                    <span style="font-weight: bolder;">Nutritional Coaching</span>
+                    <br/>
+                  </h3>
+                  <p class="card-text">Our Functional Nutritionist takes a<br/>holistic approach to health by<br/>incorporating food, sleep, stress,<br/>fitness, and toxic environmental<br/>factors, in an effort to reduce the risk<br/>of chronic disease. All consultations<br/>and recommendations are personalized based on symptomology and biomarker testing. Health coaches are a key part in the shift that individuals<br/>around the world are making towards<br/>taking ownership of their own lives<br/>and wellbeing. Our trained health<br/>coaches are your partners in exploring your wellness goals and making real, lasting lifestyle and behavior changes.<br/></p>
+                  <p class="card-text">
+                    <u>
+                      <font style="" class="text-o-color-1">Book Now</font>
+                    </u>
+                    <br/>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</div>
+</t>
+</template>
+</odoo>
