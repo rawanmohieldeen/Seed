@@ -24,6 +24,7 @@ from odoo.addons.http_routing.models.ir_http import slug, slugify, _guess_mimety
 from odoo.addons.web.controllers.main import Binary
 from odoo.addons.portal.controllers.portal import pager as portal_pager
 from odoo.addons.portal.controllers.web import Home
+from odoo.addons.website.controllers.main import Website
 
 
 class Website(Home):
@@ -42,7 +43,10 @@ class Website(Home):
 
 
 
-    @http.route('/', type='http', auth="public", website=True, sitemap=True)
-    def index(self, **kw):
-        super(Website, self).index()
-        return request.render('website.homepage')
+# class Website(Website):
+
+#     @http.route(auth='public')
+#     def index(self, **kw):
+#         super(Website, self).index()
+#         print('-------***********************-')
+#         return http.request.render('nm_health_wellness_website.homepage_seed', {})

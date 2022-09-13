@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="snippet_options_inherited" inherit_id="website.snippet_options">
+		
+		
+		<!-- Footers -->
+		<xpath expr="//we-select[@data-variable='footer-template']" position="inside">
+
+            <we-button title="Footer Three"
+                       data-customize-website-views="nm_health_wellness_website.theme_common_footer3"
+                       data-customize-website-variable="'footer_three'"
+                       data-img="/nm_health_wellness_website/static/src/img/footer_three.png"/>
+		</xpath>
+
+	</template>
+
+	<template id="theme_common_footer3" inherit_id="website.layout" name="Footer Three" active="False">
+<div id="footer" position ="replace">
+
+    <div id="footer" class="oe_structure oe_structure_solo" style="" data-oe-id="1605" data-oe-xpath="/data/xpath/div" data-oe-model="ir.ui.view" data-oe-field="arch">
+      <section class="s_text_block pt32 pb16" data-snippet="s_text_block" data-name="Text" style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip894014">
+        <div class="container">
+          <div class="row align-items-end">
+            <div class="o_colored_level pt72 pb48 col-lg-3" style="">
+              <p class="mb-2"><u>Call us</u><br/>+974-XXXX-XXXX<br/><u>Email us</u><br/>hello@seed.qa<br/><u>Follow us</u><br/></p>
+            </div>
+            <div class="pb16 o_colored_level pt24 col-lg-3" data-original-title="" title="" aria-describedby="tooltip670601">
+              <p class="mb-2"><u>
+                        Opening Hours</u><br/>8:00 AM � 8:00 PM<br/>Sun — Sat</p>
+              <p class="mb-2"><br/><u>Location</u><br/>Gate Mall 1st Floor, West<br/>Bay, Doha – Qata<br/></p>
+            </div>
+            <div class="pt16 o_colored_level pb0 col-lg-3" data-original-title="" title="" aria-describedby="tooltip476136">
+              <p class="mb-2"><u>
+                        Our Services</u><br/>Consultation<br/>Body works<br/>Treatments</p>
+              <p class="mb-2"><br/><u>Your team</u><br/>Doctors<br/>Practitioners<br/></p>
+            </div>
+            <div class="o_colored_level col-lg-3 pt64 pb160" data-original-title="" title="" aria-describedby="tooltip476136">
+              <p class="mb-2">© Seed 2022<br/></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="s_text_block" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+        <div class="allow_columns container">
+          <div class="s_hr pt16 pb16" data-name="Separator">
+            <hr class="mx-auto w-100" style="border-top-width: 1px; border-top-style: solid; border-right-color: ; border-bottom-color: ; border-left-color: ; border-top-color: rgb(246, 246, 246) !important;"/>
+          </div>
+        </div>
+      </section>
+      <section class="s_text_block" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+        <div class="container">
+          <div class="row align-items-center" data-original-title="" title="" aria-describedby="tooltip403742">
+            <div class="col-lg-2 pb16 o_colored_level">
+              <a href="/" class="o_footer_logo logo">
+                <img src="/nm_health_wellness_website/static/src/img/english.png" class="img-fluid" aria-label="Logo of MyCompany" title="MyCompany" role="img" loading="lazy" alt="" data-original-id="824" data-original-src="/nm_health_wellness_website/static/src/img/english.png" data-mimetype="image/png" data-resize-width="undefined"/>
+              </a>
+            </div>
+            <div class="pb16 text-right o_colored_level col-lg-6 offset-lg-4" data-original-title="" title="" aria-describedby="tooltip56840">
+              <a href="/" class="o_footer_logo logo">
+                <img src="/nm_health_wellness_website/static/src/img/arabic.png" class="img-fluid" aria-label="Logo of MyCompany" title="MyCompany" role="img" loading="lazy" alt="" data-original-id="824" data-original-src="/nm_health_wellness_website/static/src/img/arabic.png" data-mimetype="image/png" data-resize-width="undefined"/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+</div>
+ <xpath expr="//div[hasclass('o_footer_copyright')]" position="before">
+        <t t-set="no_copyright" t-value="True"/>
+    </xpath>
+</template>
+
+
+</odoo>                

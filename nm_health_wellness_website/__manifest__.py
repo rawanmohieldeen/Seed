@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','website','website_sale','website_appointment'],
+    'depends': ['base','website','website_sale','website_appointment','portal'],
 
     # always loaded
     'data': [
@@ -32,8 +32,7 @@
         'data/menu.xml',
         'views/res_config.xml',
         'views/templates.xml',
-        'views/header_footer_custom.xml',
-        # 'views/assets.xml',
+        'views/footer.xml',
 
 
     ],

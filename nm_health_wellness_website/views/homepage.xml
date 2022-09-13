@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF8"?>
 <odoo>
-     <template id="homepage_seed" inherit_id="website.homepage" name="Products" active="True">
+     <template id="homepage_seed" inherit_id="website.homepage">
 
       <!--   <record id="homepage_seed" model="ir.ui.view">
         <field name="name">Home</field>
