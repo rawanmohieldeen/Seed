@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<record id="theme_nm_health_wellness_website.primary_variables_scss" model="theme.ir.asset">
+    <field name="key">theme_nm_health_wellness_website.primary_variables_scss</field>
+    <field name="name">Primary variables SCSS</field>
+    <field name="bundle">website._assets_primary_variables</field>
+    <field name="path">theme_nm_health_wellness_website/static/src/scss/primary_variables.scss</field>
+</record>
+<!-- <template id="_assets_primary_variables" name="My SCSS variables" inherit_id="website._assets_primary_variables">
+    <xpath expr="link[last()]" position="after">
+        <link rel="stylesheet" type="text/scss" href="/theme_nm_health_wellness_website/static/src/scss/primary_variables.scss"/>
+    </xpath>
+</template> -->
+
+</odoo>
