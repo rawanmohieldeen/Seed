@@ -33,6 +33,8 @@
         'views/res_config.xml',
         'views/templates.xml',
         'views/footer.xml',
+        'views/templates.xml',
+        'views/header_custom.xml',
 
 
     ],

@@ -8,7 +8,7 @@
       <section class="s_color_blocks_2" data-snippet="s_color_blocks_2" data-name="Big Boxes">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6 text-center o_colored_level o_cc o_cc5 pt200 pb256" style="background-color: rgb(216, 213, 207) !important; background-image: none;" data-original-title="" title="" aria-describedby="tooltip778047">
+            <div class="col-lg-6 text-center o_colored_level o_cc o_cc5 pt200 pb256" style="background-color: rgba(209,206,192,255) !important; background-image: none;" data-original-title="" title="" aria-describedby="tooltip778047">
               <h2>
                 <font style="" class="text-black">YOUR ONE STOP</font>
               </h2>
@@ -28,7 +28,7 @@
           </div>
         </div>
       </section>
-      <section class="s_text_block pt40 pb40 o_colored_level o_cc o_cc1" data-snippet="s_text_block" data-name="Text" style="background-color: rgb(193, 184, 169) !important; background-image: none;">
+      <section class="s_text_block pt40 pb40 o_colored_level o_cc o_cc1" data-snippet="s_text_block" data-name="Text" style="background-color: rgba(240,239,229,255) !important; background-image: none;">
         <div class="s_allow_columns container">
           <h3 style="text-align: center;">
             <span style="font-weight: bolder;">
@@ -41,7 +41,7 @@
       <section class="s_color_blocks_2" data-snippet="s_color_blocks_2" data-name="Big Boxes">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6 text-center o_colored_level o_cc o_cc3 pt8 pb0 border" style="background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;">
+            <div class="col-lg-6 text-center o_colored_level o_cc o_cc3 pt8 pb0 border" style="background-color: rgba(240,239,229,255) !important; background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;">
               <br/>
               <br/>
               <h2 style="text-align: left;">1. Health<br/>Optimization<br/>Program<br/></h2>
@@ -53,11 +53,18 @@
               <p style="text-align: left;">
                 <br/>
               </p>
-              <div class="row">
+              <!-- <div class="row">
                   <p>QR 2,500</p>
+              </div> -->
+              <div data-snippet="s_text_highlight" data-name="Text Highlight" style="background-color: rgba(209,206,192,255) !important;border: inherit;border-bottom: 0px;width: 728px;margin-left:-75px;" class="row s_text_highlight o_colored_level text-center">
+                <div class="container">
+                  <p>
+                    <font style="background-color: inherit;" class="text-black">QR 2,500</font>
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="col-lg-6 o_cc o_cc5 text-center o_colored_level pt56 pb0 border" style="background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;" data-original-title="" title="" aria-describedby="tooltip658645">
+            <div class="col-lg-6 o_cc o_cc5 text-center o_colored_level pt56 pb0 border" style="background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important; background-color:rgba(248,247,227,255) !important;" data-original-title="" title="" aria-describedby="tooltip658645">
               <h2>
                 <br/>
               </h2>
@@ -75,7 +82,7 @@
       <section class="s_color_blocks_2" data-snippet="s_color_blocks_2" data-name="Big Boxes">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6 text-center o_colored_level o_cc o_cc3 pb72 pt8 border" style="background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;">
+            <div class="col-lg-6 text-center o_colored_level o_cc o_cc3 pb72 pt8 border" style="background-color: rgba(240,239,229,255) !important;background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;">
               <br/>
               <br/>
               <h2 style="text-align: left;">2. Preventative<br/>Program<br/></h2>
@@ -87,8 +94,15 @@
               <p style="text-align: left;">
                 <br/>
               </p>
+              <div data-snippet="s_text_highlight" data-name="Text Highlight" style="background-color: rgba(209,206,192,255) !important;border: inherit;border-bottom: 0px;width: 728px;margin-left:-75px;/*! margin-top: 21px; */" class="row s_text_highlight o_colored_level text-center">
+                <div class="container">
+                  <p>
+                    <font style="background-color: inherit;" class="text-black">QR 2,500</font>
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-6 o_cc o_cc5 text-center o_colored_level pt0 border" style="background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;" data-original-title="" title="" aria-describedby="tooltip658645">
+            <div class="col-lg-6 o_cc o_cc5 text-center o_colored_level pt0 border" style="background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;background-color:rgba(248,247,227,255) !important;" data-original-title="" title="" aria-describedby="tooltip658645">
               <h2>
                 <br/>
               </h2>
@@ -107,7 +121,7 @@
       <section class="s_color_blocks_2" data-snippet="s_color_blocks_2" data-name="Big Boxes">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6 text-center o_colored_level o_cc o_cc3 pb72 pt8 border" style="background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;">
+            <div class="col-lg-6 text-center o_colored_level o_cc o_cc3 border pb0 pt104" style="background-color: rgba(240,239,229,255) !important;background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;">
               <br/>
               <br/>
               <h2 style="text-align: left;">3. Six Months<br/>Anti-Aging<br/>Program<br/></h2>
@@ -115,8 +129,15 @@
               <p style="text-align: left;">
                 <br/>
               </p>
+              <div data-snippet="s_text_highlight" data-name="Text Highlight" style="background-color: rgba(209,206,192,255) !important;border: inherit;border-bottom: 0px;width: 728px;margin-left:-75px;" class="row s_text_highlight o_colored_level text-center">
+                <div class="container o_colored_level" style="background-image: none;">
+                  <p>
+                    <font style="background-color: inherit;" class="text-black">QR 12,000</font>
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-6 o_cc o_cc5 text-center o_colored_level pt0 border" style="background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;" data-original-title="" title="" aria-describedby="tooltip658645">
+            <div class="col-lg-6 o_cc o_cc5 text-center o_colored_level border pb0 pt4" style="background-color:rgba(248,247,227,255) !important;background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;" data-original-title="" title="" aria-describedby="tooltip658645">
               <h2>
                 <br/>
               </h2>
@@ -141,7 +162,7 @@
       <section class="s_color_blocks_2" data-snippet="s_color_blocks_2" data-name="Big Boxes">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6 text-center o_colored_level o_cc o_cc3 pb8 pt48 border" style="background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;">
+            <div class="col-lg-6 text-center o_colored_level o_cc o_cc3 border pb0 pt64" style="background-color: rgba(240,239,229,255) !important;background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;">
               <br/>
               <br/>
               <h2 style="text-align: left;">3. Six Months<br/>Vitality<br/>Program<br/></h2>
@@ -149,8 +170,15 @@
               <p style="text-align: left;">
                 <br/>
               </p>
+              <div data-snippet="s_text_highlight" data-name="Text Highlight" style="background-color: rgba(209,206,192,255) !important;border: inherit;border-bottom: 0px;width: 728px;margin-left:-75px;" class="row s_text_highlight o_colored_level text-center">
+                <div class="container">
+                  <p>
+                    <font style="background-color: inherit;" class="text-black">QR 36,000</font>
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-6 o_cc o_cc5 text-center o_colored_level pb32 pt0 border" style="background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;" data-original-title="" title="" aria-describedby="tooltip658645">
+            <div class="col-lg-6 o_cc o_cc5 text-center o_colored_level border pb0 pt0" style="background-color:rgba(248,247,227,255) !important; background-image: none; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;" data-original-title="" title="" aria-describedby="tooltip658645">
               <h2>
                 <br/>
               </h2>
@@ -172,7 +200,7 @@
           </div>
         </div>
       </section>
-      <section class="s_title o_colored_level pb40 pt24" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-image: none;">
+      <section class="s_title o_colored_level pb40 pt24" data-vcss="001" data-snippet="s_title" data-name="Title"  style="background-color: rgba(240,239,229,255) !important;">
         <div class="container s_allow_columns">
           <h1 style="text-align: center;">
             <font style="font-size: 62px;">Price list / Bundles</font>
@@ -180,14 +208,14 @@
           </h1>
         </div>
       </section>
-      <section class="s_numbers o_cc o_cc2 pt24 pb24 o_colored_level" data-snippet="s_numbers" data-name="Numbers" style="background-image: none;">
+      <section class="s_numbers o_cc o_cc2 pt24 pb24 o_colored_level" data-snippet="s_numbers" data-name="Numbers" style="background-color: rgba(240,239,229,255) !important;">
         <div class="container">
           <div class="row">
             <div class="text-center pt24 pb24 o_colored_level col-lg-4" style="">
               <h3>
                 <span class="s_number display-4">
                   <span style="font-size: 48px; font-weight: bolder;">
-                    <font style="font-size: 36px;" class="text-black">Osteopath</font>
+                    <font style="font-size: 36px;" >Osteopath</font>
                   </span>
                 </span>
               </h3>
@@ -197,7 +225,7 @@
               <h3>
                 <span class="s_number display-4">
                   <span style="font-size: 48px; font-weight: bolder;">
-                    <font style="font-weight: 500; font-size: 36px;" class="text-black">HOCATT</font>
+                    <font style="font-weight: 500; font-size: 36px;" >HOCATT</font>
                   </span>
                 </span>
               </h3>
@@ -207,7 +235,7 @@
               <h3>
                 <span class="s_number display-4">
                   <span style="font-size: 48px; font-weight: bolder;">
-                    <font style="font-size: 36px;" class="text-black">Osteopath</font>
+                    <font style="font-size: 36px;" class="">Osteopath</font>
                   </span>
                 </span>
               </h3>
@@ -216,7 +244,7 @@
           </div>
         </div>
       </section>
-      <section class="s_numbers o_cc o_cc2 pt24 pb24 o_colored_level" data-snippet="s_numbers" data-name="Numbers" style="background-image: none;">
+      <section class="s_numbers o_cc o_cc2 pt24 pb24 o_colored_level" data-snippet="s_numbers" data-name="Numbers" style="background-color: rgba(240,239,229,255) !important;">
         <div class="container">
           <div class="row">
             <div class="text-center o_colored_level pb64 pt0 col-lg-3" style="">
@@ -224,11 +252,11 @@
                 <span class="s_number display-4">
                   <span style="font-size: 48px;">
                     <span style="font-size: 36px;">
-                      <font style="font-size: 36px;" class="text-black">Colon&amp;nbsp;</font>
+                      <font style="font-size: 36px;" class="">Colon&amp;nbsp;</font>
                     </span>
                   </span>
                 </span>
-                <font style="font-size: 36px; font-weight: 500;" class="text-black">Hydrotherapy</font>
+                <font style="font-size: 36px; font-weight: 500;" >Hydrotherapy</font>
                 <br/>
               </h3>
               <h6>90 minute: QR 750<br/></h6>
@@ -237,7 +265,7 @@
               <h3>
                 <span class="s_number display-4">
                   <span style="font-size: 48px; font-weight: bolder;">
-                    <font style="font-size: 36px;" class="text-black">Manual Lymphatic Drainage</font>
+                    <font style="font-size: 36px;" >Manual Lymphatic Drainage</font>
                     <br/>
                   </span>
                 </span>
@@ -248,12 +276,12 @@
             </div>
             <div class="text-center pt24 pb24 o_colored_level col-lg-3 offset-lg-1" style="">
               <h3>
-                <font style="" class="text-black">
-                  <span style="font-weight: 500; font-size: 36px;">Aesthetic&amp;nbsp;</span>
+                <font style="" class="">
+                  <span style="font-weight: 500; font-size: 36px; color:rgba(109,116,97,255)!important;">Aesthetic&amp;nbsp;</span>
                 </font>
               </h3>
               <h3>
-                <font style="font-weight: 500; font-size: 36px;" class="text-black">Acupuncture</font>
+                <font style="font-weight: 500; font-size: 36px;" class="">Acupuncture</font>
               </h3>
               <h3>
                 </h3>
@@ -262,14 +290,14 @@
           </div>
         </div>
       </section>
-      <section class="s_numbers o_cc o_cc2 pt24 pb24 o_colored_level" data-snippet="s_numbers" data-name="Numbers" style="background-image: none;">
+      <section class="s_numbers o_cc o_cc2 pt24 pb24 o_colored_level" data-snippet="s_numbers" data-name="Numbers" style="background-color: rgba(240,239,229,255) !important;">
         <div class="container">
           <div class="row">
             <div class="text-center o_colored_level pt0 pb4 col-lg-3" style="">
               <h3>
                 <span class="s_number display-4">
                   <span style="font-size: 48px;">
-                    <font style="font-size: 36px;" class="text-black"> Acupuncture</font>
+                    <font style="font-size: 36px;" class=""> Acupuncture</font>
                     <br/>
                   </span>
                 </span>
@@ -280,7 +308,7 @@
               <h3>
                 <span class="s_number display-4">
                   <span style="font-size: 48px; font-weight: bolder;">
-                    <font style="font-size: 36px;" class="text-black">Infrared Light</font>
+                    <font style="font-size: 36px;" class="">Infrared Light</font>
                     <br/>
                   </span>
                 </span>
@@ -291,7 +319,7 @@
             </div>
             <div class="text-center pt24 pb24 o_colored_level col-lg-3 offset-lg-1" style="">
               <h3>
-                <font style="font-size: 36px;" class="text-black">Nutritionist:</font>
+                <font style="font-size: 36px;">Nutritionist:</font>
                 <br/>
               </h3>
               <h3>

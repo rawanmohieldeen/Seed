@@ -1,3 +1,44 @@
 ul {
   list-style-type: '+';
+  color:  rgba(109,116,97,255)!important;
 }
+btn-primary{
+  background-color : #d27e5d ;
+  border-color :  #d27e5d ;
+  color: black;
+}
+
+p{
+  color: rgba(109,116,97,255)!important;
+}
+/*span {
+    color: rgba(109,116,97,255)!important;
+}*/
+h2{
+    color:  rgba(109,116,97,255)!important;
+}
+h6{
+    color:  rgba(109,116,97,255)!important;
+}
+li{
+    color:  rgba(109,116,97,255)!important;
+}
+font{
+    color:  rgba(109,116,97,255)!important;
+}
+.card-body{
+  background-color: rgb(240, 239, 229) !important;
+  color: #212529;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgb(40, 40, 40);
+}
+
+.cart_line {
+  color: #d27e5d !important;
+    }
+
+

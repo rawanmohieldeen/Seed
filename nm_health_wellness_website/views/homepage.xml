@@ -18,13 +18,13 @@
                       <section class="s_cover bg-black-50 o_colored_level s_parallax_no_overflow_hidden pb152 pt152 oe_img_bg o_bg_img_center" data-scroll-background-ratio="0" data-snippet="s_cover" data-name="Cover" style="background-image: url(/nm_health_wellness_website/static/src/img/Homepage.jpg)">
                         <div class="container s_allow_columns">
                           <h1 style="text-align: center;">
-                            <font style="font-size: 48px; font-weight: bold;">HEALTHCARE</font>
+                            <font style="font-size: 48px; font-weight: bold; color:white !important">HEALTHCARE</font>
                           </h1>
                           <h1 style="text-align: center;">
-                            <span style="font-weight: bolder; font-size: 48px;">REIMAGINED</span>
+                            <font style="font-weight: bolder; font-size: 48px; color:white !important">REIMAGINED</font>
                           </h1>
                           <p style="text-align: center;" data-original-title="" title="" aria-describedby="tooltip994014">
-                            <a class="mb-2 btn btn-primary" href="/calendar" data-original-title="" title="">BOOK AN APPOINTMENT</a>
+                            <a class="mb-2 btn btn-primary" href="/calendar" data-original-title="" title="" style="color:white !important;">BOOK AN APPOINTMENT</a>
                             <br/>
                           </p>
                         </div>
@@ -42,7 +42,7 @@
                           </p>
                         </div>
                       </section>
-                      <section class="s_references pt48 pb32 o_colored_level" data-snippet="s_references" data-name="References" style="background-image: none;">
+                      <section class="s_references pt48 pb32 o_colored_level" data-snippet="s_references" data-name="References" style="background-color: rgba(240,239,229,255) !important;">
                         <div class="container">
                           <h2 style="text-align: center;">Our Offerings</h2>
                           <div class="row">
@@ -76,9 +76,9 @@
                       <section class="s_color_blocks_2" data-snippet="s_color_blocks_2" data-name="Big Boxes">
                         <div class="container-fluid">
                           <div class="row">
-                            <div class="col-lg-6 text-center o_colored_level o_cc o_cc3 border" style="background-color: rgb(240, 239, 229) !important; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;" data-original-title="" title="" aria-describedby="tooltip322305">
+                            <div class="col-lg-6 text-center o_colored_level o_cc o_cc3 border" style="background-color: rgba(240,239,229,255) !important; border-width: 1px !important; border-color: rgb(0, 0, 0) !important;" data-original-title="" title="" aria-describedby="tooltip322305">
                               <h2 class="o_default_snippet_text">
-                                <font style="color: rgb(84, 93, 74);text-align:left;">We believe in functional medicine</font>
+                                <font style="text-align:left;">We believe in functional medicine</font>
                               </h2>
                               <p class="o_default_snippet_text">
                                 <font style="color: rgb(84, 93, 74);">Functional Medicine uses an approach </font>
@@ -170,9 +170,9 @@
                           </div>
                         </div>
                       </section>
-                      <section class="s_image_gallery o_spc-small pt24 pb24 o_colored_level o_masonry" data-vcss="001" data-columns="2" style="overflow: hidden; background-image: none;" data-snippet="s_images_wall" data-name="Images Wall">
+                      <section class="s_image_gallery o_spc-small pt24 pb24 o_colored_level o_masonry" data-vcss="001" data-columns="2" style="overflow: hidden; background-color: rgba(240,239,229,255) !important;" data-snippet="s_images_wall" data-name="Images Wall">
                         <div class="container">
-                            <h3>Our Clinic</h3>
+                            <h2>Our Clinic</h2>
                           <div class="row s_nb_column_fixed">
                             <div class="o_masonry_col o_snippet_not_selectable col-lg-6">
                               <img class="img img-fluid d-block" src="/web/image/website.library_image_03" data-index="0" data-name="Image" loading="lazy" data-original-id="413" data-original-src="/website/static/src/img/library/clock.jpg" data-mimetype="image/jpeg" data-original-title="" title="" aria-describedby="tooltip866320"/>
